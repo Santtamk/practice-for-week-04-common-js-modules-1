@@ -1,3 +1,5 @@
+// import sayMessage from "../messages/say-message";
+const {sayMessage} = require("../messages/say-message") 
 
 
 function sayHelloTo(name) {
@@ -5,3 +7,5 @@ function sayHelloTo(name) {
 }
 
 sayHelloTo("Woody");
+
+module.exports = { sayHelloTo }
